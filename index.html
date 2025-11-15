@@ -27,31 +27,31 @@ w\:* {behavior:url(#default#VML);}
 <o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
  name="country-region"/>
 <o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="PlaceType"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="PlaceName"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
  name="State"/>
 <o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
  name="place"/>
 <o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
  name="City"/>
-<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
- name="PlaceType"/>
-<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
- name="PlaceName"/>
 <!--[if gte mso 9]><xml>
  <o:DocumentProperties>
   <o:Author>ltrask</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Anat Ninio</o:LastAuthor>
-  <o:Revision>133</o:Revision>
-  <o:TotalTime>1224</o:TotalTime>
+  <o:Revision>137</o:Revision>
+  <o:TotalTime>1226</o:TotalTime>
   <o:Created>2014-03-15T09:21:00Z</o:Created>
-  <o:LastSaved>2024-04-24T14:12:00Z</o:LastSaved>
+  <o:LastSaved>2025-11-15T10:03:00Z</o:LastSaved>
   <o:Pages>15</o:Pages>
-  <o:Words>3483</o:Words>
-  <o:Characters>18846</o:Characters>
+  <o:Words>3163</o:Words>
+  <o:Characters>19173</o:Characters>
   <o:Company>The Graduate Center, CUNY</o:Company>
-  <o:Lines>342</o:Lines>
-  <o:Paragraphs>99</o:Paragraphs>
-  <o:CharactersWithSpaces>22230</o:CharactersWithSpaces>
+  <o:Lines>479</o:Lines>
+  <o:Paragraphs>146</o:Paragraphs>
+  <o:CharactersWithSpaces>22190</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
 </xml><![endif]-->
@@ -684,14 +684,6 @@ st1\:*{behavior:url(#ieooui) }
 	mso-font-pitch:variable;
 	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
 @font-face
-	{font-family:Times;
-	panose-1:2 2 6 3 5 4 5 2 3 4;
-	mso-font-alt:"Times New Roman";
-	mso-font-charset:0;
-	mso-generic-font-family:roman;
-	mso-font-pitch:variable;
-	mso-font-signature:-536858881 -1073711013 9 0 511 0;}
-@font-face
 	{font-family:Consolas;
 	panose-1:2 11 6 9 2 2 4 3 2 4;
 	mso-font-charset:0;
@@ -706,23 +698,28 @@ st1\:*{behavior:url(#ieooui) }
 	mso-font-pitch:variable;
 	mso-font-signature:515 680460288 22 0 262145 0;}
 @font-face
+	{font-family:"\@MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;
+	mso-font-charset:0;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-536870145 1791491579 134217746 0 131231 0;}
+@font-face
 	{font-family:Arial-BoldMT;
 	panose-1:0 0 0 0 0 0 0 0 0 0;
-	mso-font-alt:"Klee One";
-	mso-font-charset:128;
+	mso-font-alt:Arial;
+	mso-font-charset:177;
 	mso-generic-font-family:auto;
 	mso-font-format:other;
 	mso-font-pitch:auto;
-	mso-font-signature:1 134676480 16 0 131072 0;}
+	mso-font-signature:6145 0 0 0 32 0;}
 @font-face
-	{font-family:"Linux Libertine O";
-	panose-1:0 0 0 0 0 0 0 0 0 0;
-	mso-font-alt:Cambria;
-	mso-font-charset:77;
+	{font-family:Times;
+	panose-1:2 2 6 3 5 4 5 2 3 4;
+	mso-font-charset:0;
 	mso-generic-font-family:roman;
-	mso-font-format:other;
-	mso-font-pitch:auto;
-	mso-font-signature:3 0 0 0 1 0;}
+	mso-font-pitch:variable;
+	mso-font-signature:-536858881 -1073711013 9 0 511 0;}
 @font-face
 	{font-family:"CG Times";
 	panose-1:0 0 0 0 0 0 0 0 0 0;
@@ -733,20 +730,14 @@ st1\:*{behavior:url(#ieooui) }
 	mso-font-pitch:variable;
 	mso-font-signature:3 0 0 0 1 0;}
 @font-face
-	{font-family:"\@MS Mincho";
-	panose-1:2 2 6 9 4 2 5 8 3 4;
-	mso-font-charset:128;
-	mso-generic-font-family:modern;
-	mso-font-pitch:fixed;
-	mso-font-signature:-536870145 1791491579 134217746 0 131231 0;}
-@font-face
-	{font-family:"\@Arial-BoldMT";
+	{font-family:"Linux Libertine O";
 	panose-1:0 0 0 0 0 0 0 0 0 0;
-	mso-font-charset:128;
-	mso-generic-font-family:auto;
+	mso-font-alt:Cambria;
+	mso-font-charset:77;
+	mso-generic-font-family:roman;
 	mso-font-format:other;
 	mso-font-pitch:auto;
-	mso-font-signature:1 134676480 16 0 131072 0;}
+	mso-font-signature:3 0 0 0 1 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{mso-style-unhide:no;
@@ -817,7 +808,8 @@ p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
 	font-family:"Times New Roman",serif;
 	mso-fareast-font-family:SimSun;}
 a:link, span.MsoHyperlink
-	{color:blue;
+	{mso-style-noshow:yes;
+	color:blue;
 	text-decoration:underline;
 	text-underline:single;}
 a:visited, span.MsoHyperlinkFollowed
@@ -1090,14 +1082,14 @@ font-weight:normal'>Joseph H. and Belle R. Braun Professor in Psychology
 Department of Psychology<br>
 The <st1:placename w:st="on"><st1:PlaceName w:st="on">Hebrew</st1:placename></st1:PlaceName>
 <st1:placetype w:st="on"><st1:PlaceType w:st="on">University</st1:placetype></st1:PlaceType>,
-<st1:city w:st="on"><st1:City w:st="on"><st1:place w:st="on">Jerusalem</st1:city></st1:place></st1:City></span><span
+<st1:city w:st="on"><st1:place w:st="on"><st1:City w:st="on">Jerusalem</st1:city></st1:City></st1:place></span><span
 style='font-size:14.0pt;line-height:150%;mso-fareast-font-family:"Times New Roman"'>
 <o:p></o:p></span></h2>
 
 <p class=MsoNormal align=center style='mso-margin-top-alt:auto;margin-right:
 -.25in;mso-margin-bottom-alt:auto;text-align:center;line-height:150%;
 mso-outline-level:2'><b><span style='font-size:14.0pt;line-height:150%;
-mso-fareast-font-family:"Times New Roman"'>Last updated&nbsp;April 24, 2024</span></b><b><span
+mso-fareast-font-family:"Times New Roman"'>Last updated&nbsp;November 15, 2025</span></b><b><span
 style='font-size:18.0pt;line-height:150%;mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></b></p>
 
 <p class=MsoNormal style='margin-right:-.25in;line-height:150%'><b><span
@@ -1109,7 +1101,7 @@ style='font-size:14.0pt;line-height:150%'><a
 href="https://en.wikipedia.org/wiki/Anat_Ninio">https://en.wikipedia.org/wiki/Anat_Ninio</a><o:p></o:p></span></b></p>
 
 <p class=MsoNormal style='line-height:150%'><b><u><span style='font-size:14.0pt;
-line-height:150%;color:blue'><a href="CV-2023_June.docx">Curriculum Vitae</a><o:p></o:p></span></u></b></p>
+line-height:150%;color:blue'><a href="CV-2025_November.docx">Curriculum Vitae</a><o:p></o:p></span></u></b></p>
 
 <p class=MsoNormal style='line-height:150%'><span class=MsoHyperlink><b><span
 style='font-size:14.0pt;line-height:150%;color:windowtext;text-decoration:none;
@@ -1255,11 +1247,11 @@ style='font-size:13.5pt;line-height:150%;mso-ascii-font-family:"Times New Roman"
 mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
 mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
 mso-bidi-theme-font:major-bidi;color:black;mso-themecolor:text1'>Proceedings of
-the </span></i></b><b><i><span style='font-size:13.5pt;line-height:150%'>First
-International Workshop on Quantitative Syntax</span></i></b><span
-style='font-size:13.5pt;line-height:150%'> (pp. 57-67). Paris, France: The
-International Quantitative Linguistics Association (IQLA). Available at <span
-class=MsoHyperlink><a href="https://www.aclweb.org/anthology/W19-7907.pdf">https://www.aclweb.org/anthology/W19-7907.pdf</a></span>.<o:p></o:p></span></p>
+the </span></i></b><b><i><span style='font-size:13.5pt;line-height:150%'>First International
+Workshop on Quantitative Syntax</span></i></b><span style='font-size:13.5pt;
+line-height:150%'> (pp. 57-67). Paris, France: The International Quantitative
+Linguistics Association (IQLA). Available at <span class=MsoHyperlink><a
+href="https://www.aclweb.org/anthology/W19-7907.pdf">https://www.aclweb.org/anthology/W19-7907.pdf</a></span>.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;line-height:
 150%;mso-hyphenate:none;tab-stops:-21.85pt 22.5pt'><span style='font-size:13.5pt;
@@ -1353,9 +1345,8 @@ line-height:150%'><o:p>&nbsp;</o:p></span></p>
 line-height:150%'>Ninio, A. (2017). <b><a href="Projectivity.pdf">Projectivity
 is the mathematical code of syntax</a></b>: Comment on &#8220;Dependency
 distance: a new perspective on syntactic patterns in natural languages&#8221;
-by <span class=SpellE>Haitao</span> Liu et al. <span style='color:black'>Invited
-commentary, </span><em><b>Physics of Life Reviews</b>.
-doi:10.1016/j.plrev.2017.06.021<o:p></o:p></em></span></p>
+by Haitao Liu et al. <span style='color:black'>Invited commentary, </span><em><b>Physics
+of Life Reviews</b>. doi:10.1016/j.plrev.2017.06.021<o:p></o:p></em></span></p>
 
 <p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;line-height:
 150%;mso-hyphenate:none;tab-stops:-21.85pt 22.5pt'><span style='font-size:13.5pt;
@@ -1595,8 +1586,7 @@ stage</a></b>. In<span style='mso-spacerun:yes'>&nbsp; </span>P. C. Hogan
 0in;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-22.5pt;line-height:
 150%;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:13.5pt;line-height:150%'>Advance reviews: <b><a
-href="CELS_advance_revs.DOC">Akeel <span class=SpellE>Bilgrami</span>, Seymour
-Chatman, Noam Chomsky</a></b><o:p></o:p></span></p>
+href="CELS_advance_revs.DOC">Akeel Bilgrami, Seymour Chatman, Noam Chomsky</a></b><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:-.25in;margin-bottom:
 0in;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-22.5pt;line-height:
@@ -1640,8 +1630,8 @@ class=s1><b>PPT</b></span></a><b>]</b></span></p>
 style='font-size:13.5pt;line-height:150%'>Ninio, A. (2008, September). <b><u><a
 href="ECCS08-ppr.doc">Self-Organized Criticality and the properties of English.</a></u></b><span
 style='mso-spacerun:yes'>&nbsp; </span>Invited paper presented at the 5th
-European Conference on Complex Systems (ECCS 2008), <st1:city w:st="on"><st1:place
-w:st="on"><st1:City w:st="on">Jerusalem</st1:city></st1:City></st1:place>,
+European Conference on Complex Systems (ECCS 2008), <st1:city w:st="on"><st1:City
+w:st="on"><st1:place w:st="on">Jerusalem</st1:city></st1:place></st1:City>,
 September 14-19, 2008.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:22.5pt;text-indent:-22.5pt;line-height:
@@ -1834,10 +1824,10 @@ style='font-size:13.5pt;line-height:150%'><o:p>&nbsp;</o:p></span></p>
 150%;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:13.5pt;line-height:150%'>Ninio, A. (2003). <b><a href="RIA.doc">Analogy
 and transfer of learning in syntactic development</a></b>. Invited article for
-a special issue of <b><i>Revue <span class=SpellE>d'Intelligence</span>
-Artificielle (RIA)</i></b>: <b><i>Regards <span class=SpellE>Crois&eacute;s</span>
-sur <span class=SpellE>l'Analogie</span></i></b></span>, <span
-style='font-size:13.5pt;line-height:150%'>edited by Karine <span class=SpellE>Duvignau</span>,
+a special issue of <b><i>Revue <span class=SpellE>d'Intelligence</span> <span
+class=SpellE>Artificielle</span> (RIA)</i></b>: <b><i>Regards <span
+class=SpellE>Crois&eacute;s</span> sur <span class=SpellE>l'Analogie</span></i></b></span>,
+<span style='font-size:13.5pt;line-height:150%'>edited by Karine Duvignau,
 Olivier Gasquet &amp; Bruno Gaume. &nbsp;<i>17</i>,&nbsp;</span><b> </b><span
 style='font-size:13.5pt;line-height:150%'>813<b>-</b>821<b>.</b><o:p></o:p></span></p>
 
@@ -1850,9 +1840,9 @@ style='font-size:13.5pt;line-height:150%'><o:p>&nbsp;</o:p></span></p>
 0in;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-22.5pt;line-height:
 150%;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:13.5pt;line-height:150%'>Ninio, A. (2001). <b><a
-href="Pragmatic_Keywords_2001.pdf">Pragmatic keywords and the first combining verbs
-in children's speech</a></b>. Invited article for a special issue on Pragmatic
-Development, edited by Haydee Marcos. <b><i>First Language</i></b>, <i>21</i>,
+href="Pragmatic_Keywords_2001.pdf">Pragmatic keywords and the first combining
+verbs in children's speech</a></b>. Invited article for a special issue on
+Pragmatic Development, edited by Haydee Marcos. <b><i>First Language</i></b>, <i>21</i>,
 433-460.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:-.25in;margin-bottom:
@@ -1880,8 +1870,8 @@ style='font-size:13.5pt;line-height:150%'>Ninio, A. (1999). <b><a
 href="model-learning.pdf">Model learning in syntactic development: Intransitive
 verbs</a></b>.<br>
 <right>Invited article for a special issue on Cross-linguistic Studies of Early
-Grammar, edited by M.M. <span class=SpellE>Vihman</span>.&nbsp; <b><i>International
-Journal of Bilingualism</i></b> , <i>3</i>, 111-131. <b>[<span class=SpellE><a
+Grammar, edited by M.M. Vihman.&nbsp; <b><i>International Journal of
+Bilingualism</i></b> , <i>3</i>, 111-131. <b>[<span class=SpellE><a
 href="model.ps">postscipt</a></span>] or [<a href="model.ps.gz">compressed
 postscript</a></b>]<o:p></o:p></span></p>
 
@@ -1927,8 +1917,8 @@ href="Acquiring%20a%20Dependency-grammar.doc">Acquiring a dependency grammar:
 The first three stages in the acquisition of multiword combinations in
 Hebrew-speaking children</a></b>. In G. <span class=SpellE>Makiello-Jarza</span>,
 J. Kaiser &amp; M. <span class=SpellE>Smolczynska</span> (Eds.), <b><i>Language
-acquisition and developmental&nbsp; psychology.</i></b>&nbsp; <st1:place w:st="on"><st1:City
- w:st="on">Cracow</st1:City></st1:place>: Universitas.<o:p></o:p></span></p>
+acquisition and developmental&nbsp; psychology.</i></b>&nbsp; <st1:City w:st="on"><st1:place
+ w:st="on">Cracow</st1:place></st1:City>: Universitas.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:-.25in;margin-bottom:
 0in;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-22.5pt;line-height:
@@ -2231,9 +2221,9 @@ style='font-size:13.5pt;line-height:150%'><o:p>&nbsp;</o:p></span></p>
 150%;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:13.5pt;line-height:150%'>Ninio, A. and Wheeler, P.
 (1984).&nbsp; <b><a href="Ninio&amp;Wheeler_84.pdf">Functions of speech in
-mother-infant interaction</a></b>.&nbsp; In L. Feagans, G.J. Garvey, &amp; R. <span
-class=SpellE>Golinkoff</span> (Eds.), <b><i>The origins and growth of
-communication</i></b> (pp. 196-207).&nbsp; Norwood, NJ: <span class=SpellE>Ablex</span>.<o:p></o:p></span></p>
+mother-infant interaction</a></b>.&nbsp; In L. Feagans, G.J. Garvey, &amp; R.
+Golinkoff (Eds.), <b><i>The origins and growth of communication</i></b> (pp.
+196-207).&nbsp; Norwood, NJ: <span class=SpellE>Ablex</span>.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:-.25in;margin-bottom:
 0in;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-22.5pt;line-height:
